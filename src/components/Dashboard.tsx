@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowUp, ArrowDown, DollarSign, TrendingUp, TrendingDown, ChartBar, ChartLine, Info } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { Progress } from "@/components/ui/progress";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { Tooltip, TooltipProvider, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import CompanyOverview from './CompanyOverview';
 import { KPICard } from './KPICard';
 import { MetricsTable } from './MetricsTable';
@@ -20,11 +20,12 @@ const Dashboard: React.FC = () => {
             <span className="text-envoi-purple">voi</span>
             <span className="text-envoi-white">.</span>
           </h1>
-          <span className="ml-4 text-envoi-soft-gray text-sm">KPI Dashboard</span>
         </div>
       </header>
 
       <main className="p-8">
+        <h2 className="text-xl font-bold mb-6 text-envoi-white text-[18px]">KPI Dashboard</h2>
+        
         <CompanyOverview />
 
         <div className="my-8">

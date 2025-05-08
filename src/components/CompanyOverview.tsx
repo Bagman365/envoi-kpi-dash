@@ -40,19 +40,15 @@ const CompanyOverview: React.FC = () => {
                 beyond. Think of it as your <span className="text-envoi-purple">Web3 identity passport</span>: simple, composable, and 
                 ecosystem-agnostic.
               </p>
+              
+              <h3 className="text-envoi-white text-lg font-bold mt-4 mb-2">Vision</h3>
+              <p className="text-envoi-white">
+                To become the <span className="text-envoi-purple">identity infrastructure layer</span> for Web3 enabling multi-chain names that carry your reputation, assets, and social layer across decentralized ecosystems.
+              </p>
             </div>
           </CardContent>
         </Card>
       </div>
-
-      <Card className="bg-envoi-dark-gray border-envoi-mid-gray mt-6">
-        <CardContent className="p-6">
-          <h2 className="text-xl font-bold mb-2 text-envoi-white">Vision</h2>
-          <p className="text-envoi-white">
-            To become the <span className="text-envoi-purple">identity infrastructure layer</span> for Web3 enabling multi-chain names that carry your reputation, assets, and social layer across decentralized ecosystems.
-          </p>
-        </CardContent>
-      </Card>
     </div>
   );
 };
