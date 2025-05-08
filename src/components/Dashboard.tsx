@@ -22,16 +22,13 @@ const Dashboard: React.FC = () => {
           </h1>
           <span className="ml-4 text-envoi-soft-gray text-sm">KPI Dashboard</span>
         </div>
-        <div className="text-sm text-envoi-soft-gray">
-          April 2025
-        </div>
       </header>
 
       <main className="p-8">
         <CompanyOverview />
 
         <div className="my-8">
-          <h2 className="text-xl font-bold mb-4">Key Metrics Summary</h2>
+          <h2 className="text-xl font-bold mb-4 text-envoi-white">Key Metrics Summary</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <KPICard 
               title="Total Supply" 
@@ -97,7 +94,7 @@ const Dashboard: React.FC = () => {
         </Tabs>
 
         <div className="mt-10">
-          <h2 className="text-xl font-bold mb-6">Current Focus: Q1-Q2 2025 Roadmap</h2>
+          <h2 className="text-xl font-bold mb-6 text-envoi-white">Current Focus: Q1-Q2 2025 Roadmap</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card className="bg-envoi-dark-gray border-envoi-mid-gray">
               <CardContent className="p-6">
