@@ -101,7 +101,7 @@ const Dashboard: React.FC = () => {
               <CardContent className="p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                  <h3 className="font-bold">Q1 (Now)</h3>
+                  <h3 className="font-bold text-envoi-white">Q1 (Now)</h3>
                 </div>
                 <p className="text-envoi-white">SDK rollout, dApp integration, advanced user profiles</p>
               </CardContent>
@@ -110,7 +110,7 @@ const Dashboard: React.FC = () => {
               <CardContent className="p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <div className="w-3 h-3 rounded-full bg-envoi-purple"></div>
-                  <h3 className="font-bold">Q2 (Planned)</h3>
+                  <h3 className="font-bold text-envoi-white">Q2 (Planned)</h3>
                 </div>
                 <p className="text-envoi-white">Subname creation, NFT collection linking, token + SBT features</p>
               </CardContent>
