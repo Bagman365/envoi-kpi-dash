@@ -36,9 +36,12 @@ const CompanyOverview: React.FC = () => {
 
         <Card className="bg-envoi-dark-gray border-envoi-mid-gray">
           <CardContent className="p-6">
-            <h2 className="text-xl font-bold mb-2 text-envoi-white">Vision</h2>
+            <h2 className="text-xl font-bold mb-2 text-envoi-white">What We Do</h2>
             <p className="text-envoi-white">
-              To become the <span className="text-envoi-purple">identity infrastructure layer</span> for Web3 enabling multi-chain names that carry your reputation, assets, and social layer across decentralized ecosystems.
+              envoi is a decentralized naming and identity service that lets users secure personalized 
+              .voi domain names to power their Web3 presence across dApps, wallets, NFTs, and 
+              beyond. Think of it as your <span className="text-envoi-purple">Web3 identity passport</span>: simple, composable, and 
+              ecosystem-agnostic.
             </p>
           </CardContent>
         </Card>
@@ -46,12 +49,9 @@ const CompanyOverview: React.FC = () => {
 
       <Card className="bg-envoi-dark-gray border-envoi-mid-gray mt-6">
         <CardContent className="p-6">
-          <h2 className="text-xl font-bold mb-2 text-envoi-white">What We Do</h2>
+          <h2 className="text-xl font-bold mb-2 text-envoi-white">Vision</h2>
           <p className="text-envoi-white">
-            envoi is a decentralized naming and identity service that lets users secure personalized 
-            .voi domain names to power their Web3 presence across dApps, wallets, NFTs, and 
-            beyond. Think of it as your <span className="text-envoi-purple">Web3 identity passport</span>: simple, composable, and 
-            ecosystem-agnostic.
+            To become the <span className="text-envoi-purple">identity infrastructure layer</span> for Web3 enabling multi-chain names that carry your reputation, assets, and social layer across decentralized ecosystems.
           </p>
         </CardContent>
       </Card>
