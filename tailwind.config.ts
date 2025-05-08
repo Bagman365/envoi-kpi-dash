@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// envoi brand colors
+				envoi: {
+					purple: '#9b8df0',
+					violet: '#a884f7',
+					black: '#000000',
+					'dark-gray': '#1f1f1f',
+					'soft-gray': '#b0b0b0',
+					'light-gray': '#d6d6d6',
+					'mid-gray': '#1f1f1f',
+					white: '#ffffff'
 				}
+			},
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -89,6 +104,9 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			backgroundImage: {
+				'purple-gradient': 'linear-gradient(to right, #9b8df0, #a884f7)',
 			}
 		}
 	},
