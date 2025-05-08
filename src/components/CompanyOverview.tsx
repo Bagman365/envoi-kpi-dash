@@ -8,7 +8,7 @@ const CompanyOverview: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <Card className="bg-envoi-dark-gray border-envoi-mid-gray col-span-1 lg:col-span-2">
           <CardContent className="p-6">
-            <h2 className="text-xl font-bold mb-2">Company Overview</h2>
+            <h2 className="text-xl font-bold mb-2 text-envoi-white">Company Overview</h2>
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <h3 className="text-envoi-soft-gray text-sm">Company Name</h3>
@@ -36,7 +36,7 @@ const CompanyOverview: React.FC = () => {
 
         <Card className="bg-envoi-dark-gray border-envoi-mid-gray">
           <CardContent className="p-6">
-            <h2 className="text-xl font-bold mb-2">Vision</h2>
+            <h2 className="text-xl font-bold mb-2 text-envoi-white">Vision</h2>
             <p className="text-envoi-white">
               To become the <span className="text-envoi-purple">identity infrastructure layer</span> for Web3 enabling multi-chain names that carry your reputation, assets, and social layer across decentralized ecosystems.
             </p>
@@ -46,7 +46,7 @@ const CompanyOverview: React.FC = () => {
 
       <Card className="bg-envoi-dark-gray border-envoi-mid-gray mt-6">
         <CardContent className="p-6">
-          <h2 className="text-xl font-bold mb-2">What We Do</h2>
+          <h2 className="text-xl font-bold mb-2 text-envoi-white">What We Do</h2>
           <p className="text-envoi-white">
             envoi is a decentralized naming and identity service that lets users secure personalized 
             .voi domain names to power their Web3 presence across dApps, wallets, NFTs, and 
