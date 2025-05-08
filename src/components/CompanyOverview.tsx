@@ -12,7 +12,7 @@ const CompanyOverview: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <h3 className="text-envoi-soft-gray text-sm">Company Name</h3>
-                <p className="text-envoi-white">enVoi</p>
+                <p className="text-envoi-white">envoi</p>
               </div>
               <div>
                 <h3 className="text-envoi-soft-gray text-sm">Website</h3>
