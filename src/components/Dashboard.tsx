@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -15,17 +14,16 @@ const Dashboard: React.FC = () => {
     <div className="min-h-screen bg-envoi-black font-inter text-envoi-white">
       <header className="py-6 px-8 flex items-center justify-between border-b border-envoi-dark-gray">
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold">
+          <h1 className="text-2xl font-bold mr-6">
             <span className="text-envoi-white">en</span>
             <span className="text-envoi-purple">voi</span>
             <span className="text-envoi-white">.</span>
           </h1>
+          <h2 className="text-xl font-bold text-envoi-white">KPI Dashboard</h2>
         </div>
       </header>
 
       <main className="p-8">
-        <h2 className="text-xl font-bold mb-6 text-envoi-white text-[18px]">KPI Dashboard</h2>
-        
         <CompanyOverview />
 
         <div className="my-8">
